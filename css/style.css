@@ -1,0 +1,826 @@
+/* css */
+* {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+header2 {
+    background: maroon;
+    color: white;
+    padding: 13px 100px;
+    display: flex;
+    justify-content: right;
+}
+
+header2 p {
+    padding: 0 100px;
+
+}
+
+header2 div .fa-hand-point-right:hover {
+    color: rgb(7, 63, 7);
+
+}
+
+.logo {
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 200px;
+
+}
+
+.logo div img {
+    height: 80%;
+    width: 130px;
+
+}
+
+
+a:hover {
+    color: rgb(44, 37, 37)
+}
+
+nav {
+    background: rgb(254, 158, 3);
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    padding: 10px;
+    font-weight: bolder;
+    margin-top: -30px;
+    column-gap: -60px;
+}
+
+nav>div {
+    padding: 10px 20px;
+}
+
+nav .drop1 .dropdown1 {
+    background: white;
+    position: absolute;
+    padding: 10px 0px;
+    border-radius: 5px;
+    display: none;
+    z-index: 999;
+}
+
+nav .drop1 .dropdown1 div a {
+    padding: 10px 80px 10px 10px;
+    font-size: 16px;
+
+
+
+}
+
+nav .drop1 .dropdown1 div:hover {
+    background: blue;
+}
+
+nav .drop1:hover .dropdown1 {
+    display: block;
+}
+
+.image {
+    display: flex;
+}
+
+.image .img {
+    margin-left: 200px;
+    height: 400px;
+    display: flex;
+    overflow: hidden;
+}
+
+.image .img img {
+    height: 250px;
+    width: 900px;
+    position: relative;
+    animation: slider 12s infinite;
+}
+
+@keyframes slider {
+    0% {
+        right: calc(870px * 0);
+    }
+
+    32% {
+        right: calc(870px * 1);
+    }
+
+    66% {
+        right: calc(870px * 2);
+
+    }
+
+    100% {
+        right: calc(870px * 0);
+    }
+}
+
+.notice {
+    text-align: right;
+    margin-right: 250px;
+    margin-left: -5%;
+    font-size: 35px;
+}
+
+.notice .notice-box {
+    margin-top: 10px;
+    margin-left: 30%;
+    background-color: rgb(235, 228, 228);
+    height: 220px;
+    width: 360px;
+    padding: 10px 30px;
+    overflow: hidden;
+    font-size: 18px;
+    text-align: left;
+    border-style: inherit;
+    border-radius: 10px;
+}
+
+.notice .notice-box .notice-details a {
+    color: blue;
+}
+
+
+
+.principal {
+    font-size: 33px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal div {
+    border: 1px solid rgb(86, 77, 77);
+    width: 20%;
+}
+
+.principal div:nth-child(2) {
+    border: none;
+    width: 20%;
+}
+
+.msg {
+    display: flex;
+    padding: 60px 200px;
+}
+
+.msg .photo img {
+    margin-top: 10px;
+}
+
+.msg .text {
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.albert {
+    border-left: 2px solid black;
+    margin-left: 350px;
+    height: 150px
+}
+
+.albert .txt {
+    margin-left: 50px;
+    line-height: 27px;
+}
+
+.course {
+    margin-top: 200px;  
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course div {
+    border: 1px solid rgb(86, 77, 77);
+    width: 10%;
+}
+
+.course div:nth-child(2) {
+    border: none;
+    width: 12%;
+}
+
+.box {
+
+    display: flex;
+    gap: 50px;
+    margin: 50px 100px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.branch {
+
+    border: 2px solid yellow;
+    line-height: 30px;
+    background-color: #001E2D;
+    width: 346px;
+    height: 396px;
+    color: white;
+    text-align: center;
+    font-weight: 200px;
+
+}
+
+.branch h2 {
+    margin: 50px 60px 0px 60px;
+    font-size: 28px;
+}
+
+.branch button {
+    background-color: #138496;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 80px;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #151414;
+    height: 355px;
+    margin-top: 4rem;
+    display: flex;
+}
+
+.footer .container {
+    background-color: #202020;
+    height: 363px;
+    width: 300px;
+    position: relative;
+    left: 200px;
+    bottom: 40px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px 50px 0px 50px;
+}
+
+.footer p {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.footer .list {
+    color: white;
+    z-index: 2000;
+    line-height: 25px;
+    display: flex;
+}
+
+.list {
+    display: flex;
+    gap: 100px;
+    margin: 70px 0px 0px 300px;
+}
+
+.links {
+    display: flex;
+    gap: 50px;
+}
+
+.list-items ul li {
+    list-style: none;
+    margin: 10px;
+    opacity: 0.5;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+#text:hover {
+    text-decoration: blue;
+    text-decoration: underline;
+}
+
+.footerbar {
+    margin: 0%;
+    padding: 0%;
+    background-color: #202020;
+    height: 80px;
+    display: flex;
+    color: white;
+}
+
+/* --aboutcss-- */
+
+
+.about {
+    font-size: 32px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about div {
+    border: 1px solid rgb(86, 77, 77);
+    width: 10%;
+}
+
+.about div:nth-child(2) {
+    border: none;
+    width: 12%;
+}
+
+/* --mission-- */
+.mission {
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission div {
+    border: 1px solid rgb(86, 77, 77);
+    width: 16%;
+}
+
+.mission div:nth-child(2) {
+    border: none;
+    width: 18%;
+}
+
+.vission {
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.text1 {
+    border-left: 2px solid black;
+    margin-left: 350px;
+    height: 150px;
+}
+
+.text1 .txt1 {
+    margin-left: 50px;
+    line-height: 27px;
+}
+
+/* --addmission */
+
+.adm {
+    margin-bottom: 28px;
+    font-size: 32px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adm div {
+    border: 1px solid rgb(86, 77, 77);
+    width: 15%;
+}
+
+.adm div:nth-child(2) {
+    border: none;
+    width: 13%;
+}
+
+.header3 p {
+    text-align: center;
+    font-size: 30px;
+    margin: 30px 0 30px 0;
+
+}
+
+.text3 {
+    margin-top: -18px;
+    padding: 0 200px;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+.note {
+    margin-top: 45px;
+    border-left: 2px solid black;
+    margin-left: 350px;
+    height: 100px;
+}
+
+.note1 {
+    margin-left: 50px;
+}
+
+/* --campuscss-- */
+
+.header-cam {
+    white-space: nowrap;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-cam div {
+    border: 1px solid rgb(86, 77, 77);
+    width: 17%;
+}
+
+.header-cam div:nth-child(2) {
+    border: none;
+    width: 16%;
+}
+
+.section-cam {
+    line-height: 25px;
+    font-size: 18px;
+    padding: 0 200px;
+    color: rgb(38, 37, 37);
+}
+
+/* --library-- */
+.header-library {
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.header-library div {
+    border: 1px solid rgb(86, 77, 77);
+    width: 10%;
+}
+
+.header-library div:nth-child(2) {
+    border: none;
+    width: 10%;
+}
+
+.section-library {
+    display: flex;
+    font-size: 18px;
+    padding: 0 200px;
+    line-height: 35px;
+}
+
+.text-library {
+    border-left: 2px solid black;
+    margin-left: 350px;
+    height:360px;
+}
+
+.text-library .txt {
+    margin-left: 30px;
+    line-height: 28px;
+    margin-top: 40px;
+
+}
+
+.table {
+    width: 200px;
+    text-align: left;
+}
+
+.table,
+th,
+tr,
+td {
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+}
+
+/* --laboratory-- */
+.header {
+    font-size: 32px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header div {
+    border: 1px solid rgb(86, 77, 77);
+    width: 15%;
+}
+
+.header div:nth-child(2) {
+    border: none;
+    width: 16%;
+}
+
+.side-bar {
+    display: flex;
+    gap: 250px;
+    margin-top: 50px;
+
+}
+
+.row-item {
+    height: 45px;
+    display: flex;
+    gap: 100px;
+    line-height: 36px;
+    width: 500px;
+}
+
+.main-box {
+    margin: 0% 15%;
+}
+
+.side-bar h4 {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: normal;
+}
+
+/* hostel */
+.header-hos {
+    margin-bottom: 60px;
+    font-size: 28px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.header-hos div {
+    border: 1px solid rgb(86, 77, 77);
+    width: 18%;
+}
+
+.header-hos div:nth-child(2) {
+    border: none;
+    width: 15%;
+}
+
+.section5 {
+    margin-bottom: 20px;
+    border-left: 2px solid black;
+    margin-left: 350px;
+    height: 260px;
+}
+
+.section5 .txt {
+    justify-content: left;
+    justify-items: left;
+    margin-left: 40px;
+    line-height: 20px;
+    opacity: 0.9;
+}
+
+.section6 {
+    opacity: 0.9;
+    margin: 20px 220px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.table {
+    width: 200px;
+    text-align: left;
+}
+
+.table,
+th,
+tr,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.5rem 1rem;
+}
+
+/* faculty */
+
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: rgb(10, 10, 10);
+    border-radius: 5px;
+    border: 1px solid rgb(149, 148, 148);
+    flex-direction: column;
+}
+
+.flip-card p {
+    color: green;
+
+}
+
+.flip-card-back {
+    transform: rotateY(180deg);
+}
+
+/* --gallery-- */
+
+.gallery {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gallery .header {
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -20px;
+}
+
+.gallery .header div {
+    border: 1px solid rgb(86, 77, 77);
+    width: 20%;
+}
+
+.gallery .header div:nth-child(2) {
+    border: none;
+    width: 10%;
+}
+
+.gallery section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.gallery section>div {
+    height: 300px;
+    width: 30%;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+.gallery section div img {
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.gallery section div div:nth-child(2) {
+    position: absolute;
+    background: rgba(118, 118, 118, 0.364);
+    height: 300px;
+    width: 28%;
+    margin-top: -305px;
+    border-radius: 20px;
+    display: none;
+
+}
+
+.gallery section div:hover div:nth-child(2) {
+    display: block;
+}
+
+@keyframes hranime {
+    0% {
+        width: 5%;
+    }
+
+    50% {
+        width: 20%;
+    }
+
+    100% {
+        width: 5%;
+    }
+}
+
+/* grievance */
+.header7 {
+    margin-top: -30px;
+    font-size: 33px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header7 div {
+    border: 1px solid rgb(86, 77, 77);
+    width: 12%;
+}
+
+.header7 div:nth-child(2) {
+    border: none;
+    width: 14%;
+}
+
+form {
+    font-size: 18px;
+    line-height: 38px;
+    padding: 0 260px;
+}
+
+form input {
+    display: flex;
+    width: 460px;
+    height: 30px;
+}
+
+form .container2 {
+    display: flex;
+}
+
+form .inputbox {
+    margin: 5px 18px;
+}
+
+/* contact */
+.header8 {
+    margin-bottom: 45px;
+    font-size: 32px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header8 div {
+    border: 1px solid rgb(86, 77, 77);
+    width: 13%;
+}
+
+.header8 div:nth-child(2) {
+    border: none;
+    width: 14%;
+}
+
+.phone {
+    border-left: 2px solid black;
+    margin-left: 350px;
+    height: 300px;
+}
+
+.phone .txt {
+    margin-left: 50px;
+    line-height: 22px;
+}
+
+.txt p {
+    font-size: 20px;
+    text-align: center;
+    margin-left: -350px;
+    margin-bottom: 30px;
+}
+
+/* disclosure */
+.header9 {
+    margin-bottom: 50px;
+    font-size: 32px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.header9 div {
+    border: 1px solid rgb(86, 77, 77);
+    width: 22%;
+}
+
+.header9 div:nth-child(2) {
+    border: none;
+    width: 22%;
+}
+
+.section-dis {
+    text-align: center;
+}
